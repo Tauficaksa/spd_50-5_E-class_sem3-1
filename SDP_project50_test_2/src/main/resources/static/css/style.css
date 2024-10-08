@@ -1,0 +1,101 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f9f7e8; /* Light background for the overall page */
+    color: #333; /* Default text color */
+}
+
+header {
+    background-color: #ffffff; /* White background for the header */
+    padding: 15px 50px; /* Padding for spacing */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+}
+
+nav {
+    display: flex; /* Flexbox for layout */
+    justify-content: space-between; /* Space between elements */
+    align-items: center; /* Center align vertically */
+}
+
+.logo h2 {
+    font-size: 1.5rem; /* Logo font size */
+    color: #2f4833; /* Logo color */
+}
+
+.nav-links {
+    list-style: none; /* No bullet points for list */
+    display: flex; /* Flexbox for horizontal layout */
+}
+
+.nav-links li {
+    margin-left: 25px; /* Spacing between navigation items */
+}
+
+.nav-links a {
+    text-decoration: none; /* Remove underline from links */
+    color: #333; /* Link color */
+    font-weight: bold; /* Bold text for links */
+}
+
+.auth-buttons {
+    display: flex; /* Flexbox for layout */
+}
+
+.auth-buttons .login-btn {
+    background: linear-gradient(45deg, #a27aff, #72e3e0); /* Gradient background */
+    padding: 8px 20px; /* Padding for button */
+    border-radius: 20px; /* Rounded corners */
+    color: white; /* Button text color */
+    font-weight: bold; /* Bold text */
+    text-decoration: none; /* Remove underline */
+}
+
+.hero-section {
+    display: flex; /* Flexbox for layout */
+    justify-content: space-between; /* Space between content and image */
+    align-items: center; /* Center align vertically */
+    padding: 50px; /* Padding for spacing */
+}
+
+.content h1 {
+    font-size: 3rem; /* Main heading size */
+    margin-bottom: 20px; /* Spacing below heading */
+    color: #333; /* Color for heading */
+}
+
+.content p {
+    font-size: 1.1rem; /* Paragraph font size */
+    margin-bottom: 30px; /* Spacing below paragraph */
+    color: #777; /* Lighter color for paragraph text */
+}
+
+.buttons .btn {
+    padding: 12px 25px; /* Padding for buttons */
+    margin-right: 15px; /* Spacing between buttons */
+    border-radius: 25px; /* Rounded corners */
+    text-decoration: none; /* Remove underline */
+    font-weight: bold; /* Bold text */
+    font-size: 1rem; /* Button font size */
+}
+
+.get-started {
+    background-color: #395f45; /* Dark green for get started button */
+    color: #fff; /* White text */
+}
+
+.sign-up {
+    background-color: #d0b03b; /* Gold for sign-up button */
+    color: #fff; /* White text */
+}
+.image-container img {
+    width: 400px; /* Set image width */
+    /*border: 5px solid #f39c9c;*/ /* Border around image */
+    /*border-radius: 15px; *//* Rounded corners */
+     box-shadow: 20px 20px 0 rgba(255, 143, 80, 1);
+}
+

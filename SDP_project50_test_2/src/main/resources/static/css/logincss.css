@@ -1,0 +1,96 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f9f7e8; /* Light background for the overall page */
+    color: #333; /* Default text color */
+    display: flex;
+    flex-direction: column; /* Stack items vertically */
+    align-items: center; /* Center horizontally */
+    height: 100vh; /* Full height of the viewport */
+}
+
+.top-box {
+    width: 100%; /* Full width */
+    height: 10dvh;
+    background-color: #ffffff; /* White background for the box */
+    padding: 15px 0; /* Padding for spacing */
+    /* Center text inside the box */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+}
+
+.top-box h2 {
+    margin-left: 30px;
+    color: #2f4833; /* Title color */
+}
+
+.login-container {
+    margin-top:40px;
+    text-align: center; /* Center the text */
+    width: 400px; /* Fixed width for the container */
+}
+
+h1 {
+    font-size: 2rem; /* Title size */
+    margin-bottom: 10px; /* Space below title */
+}
+
+p {
+    margin-bottom: 20px; /* Space below paragraph */
+    color: #777; /* Lighter color for paragraph text */
+}
+
+label {
+    display: block; /* Block display for labels */
+    margin-bottom: 5px; /* Space below label */
+    text-align: left; /* Align text to the left */
+}
+
+input[type="email"], input[type="password"] {
+    width: 100%; /* Full width inputs */
+    padding: 10px; /* Padding inside inputs */
+    margin-bottom: 20px; /* Space below inputs */
+    border: 1px solid #ccc; /* Border around inputs */
+    border-radius: 5px; /* Rounded corners */
+}
+
+input[type="email"]:focus, input[type="password"]:focus {
+    border-color: #395f45; /* Change border color on focus */
+    outline: none; /* Remove default outline */
+}
+
+.login-btn {
+    background-color: #395f45; /* Dark green for login button */
+    color: white; /* White text */
+    padding: 10px; /* Padding inside button */
+    border: none; /* No border */
+    border-radius: 5px; /* Rounded corners */
+    cursor: pointer; /* Pointer cursor on hover */
+    font-size: 1rem; /* Button font size */
+    margin-bottom: 10px; /* Space below button */
+}
+
+.login-btn:hover {
+    background-color: #2e4a34; /* Darker shade on hover */
+}
+
+.divider {
+    border: none; /* No border */
+    border-top: 1px solid black; /* Light gray line */
+    margin: 20px 0; /* Space above and below the line */
+}
+
+.forgot-password {
+    display: block; /* Block display for link */
+    margin-top: 10px; /* Space above link */
+    color: #395f45; /* Link color */
+    text-decoration: none; /* Remove underline */
+}
+
+.forgot-password:hover {
+    text-decoration: underline; /* Underline on hover */
+}
