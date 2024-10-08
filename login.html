@@ -5,28 +5,25 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Login</title>
     <!-- Link to CSS -->
-    <link rel="stylesheet" href="/css/registercss.css">
+    <link rel="stylesheet" href="static/css/logincss.css">
 </head>
 <body>
 <div class="top-box">
 <h2>O O O</h2>
 </div>
 <div class="login-container">
-    <h1>Register</h1>
-    <p>Sign up to continue</p>
-    <form>
-        <label for="name">NAME</label>
-        <input type="text" id="name" placeholder="user name" required>
+    <h1>Login</h1>
+    <p>Sign in to continue</p>
+    <form action="user/userdashboard.html">
         <label for="email">EMAIL</label>
         <input type="email" id="email" placeholder="hello@reallygreatsite.com" required>
         <label for="password">PASSWORD</label>
         <input type="password" id="password" required>
-        <label for="dob">DATE OF BIRTH</label>
-        <input type="date" id="dob" required>
-        <button type="submit" class="login-btn">Register</button>
+        <button type="submit" class="login-btn">login</button>
     </form>
     <hr class="divider"> <!-- Divider line -->
-    <a href="/login" class="forgot-password">already have an account</a>
+    <a href="forgot_password.html" class="forgot-password">forgot password</a>
+    <a href="register.html" class="forgot-password">don't have an account</a>
 </div>
 </body>
 </html>
